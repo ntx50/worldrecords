@@ -1,0 +1,39 @@
+.developers {
+    background-color: #000000;
+    height: 70vh;
+  }
+  
+  .developers .container {
+    max-width: 1140px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .developers .left {
+    background-color: #000000;
+    color: #f8f8f8;
+    margin: auto;
+    padding: 1rem;
+  }
+  .developers .right {
+    background-color: #000000;
+  }
+  .developers img {
+    width: 350px;
+  }
+  .img-container {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .developers img:hover {
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+  }
+  

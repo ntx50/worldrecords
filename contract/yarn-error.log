@@ -1,0 +1,43 @@
+Arguments: 
+  /home/binh/.nvm/versions/node/v16.13.0/bin/node /home/binh/.nvm/versions/node/v16.13.0/bin/yarn
+
+PATH: 
+  /home/binh/.nvm/versions/node/v16.13.0/bin:/home/binh/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "greeter",
+    "version": "0.0.1",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+      "build": "asb",
+      "build:debug": "asb --target debug",
+      "test": "asp --nologo"
+    },
+    "dependencies": {
+      "near-sdk-as": "3.1.0"
+    },
+    "devDependencies": {
+      "shelljs": "^0.8.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

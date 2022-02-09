@@ -61,7 +61,7 @@ export default function App() {
     ********************/}
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"  >  {/*sticky="top"*/}
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="https://ntx50.github.io/worldrecords/">
         <h1 style={{ marginLeft: "1rem", color: "#00d8ff" }}>
           <AiOutlineDingding />
         </h1>
@@ -70,7 +70,7 @@ export default function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href='/' >Home</Nav.Link>
+            <Nav.Link href='https://ntx50.github.io/worldrecords/' >Home</Nav.Link>
             {/* <Nav.Link href='/NewReview' >New Review</Nav.Link> */}
             <Nav.Link href='#/newpoll' >New Record</Nav.Link>
             {/* <Nav.Link href='#/pollingstation' >Record Preview</Nav.Link> */}

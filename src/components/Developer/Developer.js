@@ -13,11 +13,11 @@ const Developer = () => {
           <p>
             "Watch the most exciting records from around the world in action. See speed eating, extraordinary displays of strength, amazing human body records, incredible tech and much more!"
           </p>
-        </div>
-        <div className="right">
           <div className="img-container">
             <img src="https://media3.giphy.com/media/QZF9zME652t6YDL33a/giphy.gif" alt="nft-swap" />
           </div>
+        </div>
+        <div className="right">
         </div>
       </div>
     </div>

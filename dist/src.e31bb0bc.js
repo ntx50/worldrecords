@@ -93101,14 +93101,14 @@ const Developer = () => {
     className: "left"
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Join The World Records Book ", /*#__PURE__*/_react.default.createElement("span", {
     className: "blue"
-  }, " in Blockchain ")), /*#__PURE__*/_react.default.createElement("p", null, "\"Watch the most exciting records from around the world in action. See speed eating, extraordinary displays of strength, amazing human body records, incredible tech and much more!\"")), /*#__PURE__*/_react.default.createElement("div", {
-    className: "right"
-  }, /*#__PURE__*/_react.default.createElement("div", {
+  }, " in Blockchain ")), /*#__PURE__*/_react.default.createElement("p", null, "\"Watch the most exciting records from around the world in action. See speed eating, extraordinary displays of strength, amazing human body records, incredible tech and much more!\""), /*#__PURE__*/_react.default.createElement("div", {
     className: "img-container"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: "https://media3.giphy.com/media/QZF9zME652t6YDL33a/giphy.gif",
     alt: "nft-swap"
-  })))));
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "right"
+  })));
 };
 
 var _default = Developer;
@@ -93264,7 +93264,7 @@ function App() {
     bg: "dark",
     variant: "dark"
   }, "  ", /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar.Brand, {
-    href: "/"
+    href: "https://ntx50.github.io/worldrecords/"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     style: {
       marginLeft: "1rem",
@@ -93277,7 +93277,7 @@ function App() {
   }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav, {
     className: "me-auto"
   }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav.Link, {
-    href: "/"
+    href: "https://ntx50.github.io/worldrecords/"
   }, "Home"), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav.Link, {
     href: "#/newpoll"
   }, "New Record")), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav.Link, {
@@ -93339,7 +93339,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34709" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39713" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
